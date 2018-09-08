@@ -87,7 +87,7 @@ body {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 5px;
+    padding-top: 4px;
     padding-bottom: 5px;
     text-align: center;
 }
@@ -98,6 +98,15 @@ body {
 
 .navbar-link-yule a:hover {
     color: #D4A4CB;
+}
+
+.is4300-p h1 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.is4300-p {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
 }
 
 /** fix this **/
