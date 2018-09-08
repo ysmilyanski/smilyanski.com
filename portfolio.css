@@ -1,0 +1,134 @@
+body {
+    z-index: 9;
+    background-image: url("img/bg.jpg");
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-responsive {
+    padding-top: 50px;
+    padding-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.row-padded {
+    padding-top: 50px;
+}
+
+.intro {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.links {
+    padding-top: 50px;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    text-align: center;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.link a {
+    color: black;
+}
+
+.link a:hover {
+    color: #D4A4CB;
+}
+
+.stay-on-top {
+    position: fixed;
+    z-index: 99;
+    width: 102%;
+}
+
+.navbar-yule {
+    top: 0;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    
+    color: black;
+    background-color: white;
+    box-shadow: 0px 1px 4px #555555;
+    font-size: 10px;
+}
+
+.navbar-link-yule {
+    float: right;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.navbar-link-yule a {
+    color: black;
+}
+
+.navbar-link-yule a:hover {
+    color: #D4A4CB;
+}
+
+/** portfolio **/
+
+.portfolio-text {
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img/pic.JPG");
+
+    /* Full height */
+    height: 70%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text-panel {
+    background-color: gray;
+}
+
+.parallax-text-panel p {
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
