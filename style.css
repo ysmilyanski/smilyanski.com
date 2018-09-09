@@ -109,6 +109,14 @@ body {
     font-size: 12px;
 }
 
+.is4300-p img {
+    display:block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /** fix this **/
 @media screen and (max-device-width : 1204px)
 {
